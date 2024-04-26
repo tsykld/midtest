@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    margin: 30px 60px 0 70px;
+    align-items: center;
+}
+header input { 
+    border-radius: 40px;
+    margin-left: 600px;
+    width: 20%;
+    height: 30%;
+    border: none;
+    background-color: #374151;
+    padding: 10px 10px 10px 20px;
+}
+header a {
+    text-decoration: none;
+    color: #868686;
+}
+header a:hover {
+    color:white;
+}
+header h1 {
+    font-weight: bolder;
+}
+.container {
+    margin: 20px auto;
+}
+.homepage {
+    margin-left: 120px;
+}
+.listpage {
+    margin-left: 50px;
+}
+.title {
+    margin-top: 50px;
+    font-weight: bold;
+}
+.explore-sub {
+    color: #868686;
+    font-size: 20px;
+}
+.explore-container {
+    position: relative; 
+    background-size: cover; 
+    background-image: 'url("/asset/spy_carousel.png")';
+    background-position: center;
+    border-radius: 20px; 
+    height: 400px; 
+    color: white; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.explore-content {
+    position: absolute; 
+    top: 70%; /* Canh chỉnh nội dung ở giữa theo chiều dọc */
+    left: 36%; /* Canh chỉnh nội dung ở giữa theo chiều ngang */
+    transform: translate(-50%, -50%); /* Di chuyển nội dung ngược lại 50% của kích thước của nó để nằm ở giữa */
+    padding: 20px;
+    background-color: transparent;
+}
+
+.explore-content h3 {
+    font-size: 24px; 
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.explore-content p {
+    font-size: 16px; 
+    margin-top: 10px;
+    background-color: transparent;
+    width: 80%; 
+}
+.film-card {
+    position: relative;
+    width: 80%;
+    margin-right: 33px;
+    transition: transform 0.3s ease-in-out;
+    border: none;
+}
+.film-card:hover {
+    transform: scale(1.05); /* Kích thước lớn hơn khi hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.episode {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    background-color: transparent;
+}
+.list-film {
+    margin-left: 26px;
+    margin-top: 30px;
+}
+.film-card h5 {
+    font-size: 90%;
+    margin-top: 30px;
+    width: 80%;
+    text-align: center;
+}
+.film-card img {
+    border-radius: 20px;
+}
